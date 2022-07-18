@@ -10,5 +10,6 @@ namespace ToloWebAPI_Learning01.Models
         public string Key { get; set; }
         public string Name { get; set; }
         public bool IsCompleted { get; set; }
+	public string Description {get; set;}
     }
 }
